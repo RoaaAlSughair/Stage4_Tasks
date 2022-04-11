@@ -8,15 +8,75 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-      <div id="App">
-          <div id="Details">
-          <p><span class="page-location">Home</span> / <span class="page-location">Order History</span> / Order Details</p>
-          <hr />
-          <h2>Order #273666</h2>
-          <p><strong>Order Placed</strong>: 17, July, 2022</p>
-          <p>13:06:18</p>
-          <p><strong>Status</strong>: <span class="status">Pending</span></p>
+    <div id="App">
+      <div id="Details">
+        <p>
+          <span>Home</span> /
+          <span>Order History</span> / Order Details
+        </p>
+        <br />
+        <h3>Order #273666</h3>
+        <p><strong>Order Placed</strong>: 17, July, 2022</p>
+        <p>13:06:18</p>
+        <p><strong>Status</strong>: <span class="status">Pending</span></p>
+
+        <main id="Main-container">
+          <div id="products">
+            <section>
+              <table>
+                <tr>
+                  <td>Product</td>
+                  <td>Color</td>
+                  <td>Capacity</td>
+                  <td>Quantity</td>
+                  <td>Price</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div id="product-name">
+                      <img src="" alt="Phone" />
+                      <p>Huawei P20 Pro 128GB</p>
+                    </div>
+                  </td>
+                  <td>Blue</td>
+                  <td>64 GB</td>
+                  <td>1</td>
+                  <td>550 JD</td>
+                </tr>
+              </table>
+            </section>
+            <section id="total-price"></section>
+            <section id="options">
+              <div>
+                <a href="#"><button>PDF Invoice</button></a>
+                <a href="#"><button>Print</button></a>
+              </div>
+              <a href="#">Cancel Order &rightarrow;</a>
+            </section>
           </div>
+          <aside>
+            <section id="shipping-address">
+              <p><strong>Shipping Address</strong></p>
+              <br />
+              <p>name@domainname.com</p>
+              <p>00962 79 998 9898</p>
+              <p>Jordan, City, zipcode, street name</p>
+            </section>
+            <hr />
+            <section id="delivery-method">
+              <p><strong>Delivery Method</strong></p>
+              <br />
+              <p>Normal Delivery</p>
+            </section>
+            <hr />
+            <section id="payment-method">
+              <p><strong>Payment Method</strong></p>
+              <br />
+              <p>Cash</p>
+            </section>
+          </aside>
+        </main>
       </div>
+    </div>
   </body>
 </html>

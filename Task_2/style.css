@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#App {
+    padding: 3rem 2rem;
+}
+
+main {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: red;
+}
+
+a::after {
+    color: red;
+}
+
+span {
+    color: rgb(26, 166, 221);
+}
