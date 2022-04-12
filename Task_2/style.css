@@ -1,30 +1,113 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #App {
-    padding: 3rem 2rem;
+  background-color: rgb(230, 230, 230);
 }
 
-main {
-    background-color: #fff;
+#Details {
+  background-color: white;
+  padding: 2rem 2rem;
+}
+
+#order-time {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    justify-content: center;
 }
 
-a {
-    cursor: pointer;
-    text-decoration: none;
-    color: red;
+p, li {
+    font-size: 0.8rem;
 }
 
-a::after {
-    color: red;
+main {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1rem;
+  border-radius: 0.25rem;
+  background-color: rgb(245, 245, 245);
+  padding: 0.75rem;
+  line-height: 2;
+}
+
+#products {
+  padding: 0.5rem 1rem;
+  border: 2px solid rgb(230, 230, 230);
+  border-radius: 0.25rem;
 }
 
 span {
-    color: rgb(26, 166, 221);
+  color: rgb(26, 166, 221);
+}
+
+.status {
+  color: orange;
+}
+
+#product-name {
+  display: flex;
+  gap: 0.5rem;
+}
+
+table tr td {
+  padding: 1rem 2rem;
+  vertical-align: top;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+button {
+  background-color: white;
+  border: 2px solid rgb(26, 166, 221);
+  border-radius: 2rem;
+  padding: 0.25rem 1.5rem;
+  color: rgb(26, 166, 221);
+}
+
+img {
+  width: 3rem;
+  height: 3rem;
+}
+
+#selling-documents {
+  display: flex;
+  gap: 1rem;
+}
+
+#options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: red;
+}
+
+a::after {
+  color: red;
+}
+
+li {
+    list-style: none;
+}
+
+li:last-of-type {
+    font-weight: bold;
+}
+
+#total-price {
+    display: flex;
+    justify-content: space-between;
 }

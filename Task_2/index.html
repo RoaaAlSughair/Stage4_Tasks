@@ -11,67 +11,92 @@
     <div id="App">
       <div id="Details">
         <p>
-          <span>Home</span> /
-          <span>Order History</span> / Order Details
+          <strong
+            ><span>Home</span> / <span>Order History</span> / Order
+            Details</strong
+          >
         </p>
         <br />
         <h3>Order #273666</h3>
-        <p><strong>Order Placed</strong>: 17, July, 2022</p>
-        <p>13:06:18</p>
-        <p><strong>Status</strong>: <span class="status">Pending</span></p>
-
+        <div id="order-time">
+          <p><strong>Order Placed:</strong> 17, July, 2022</p>
+          <p>13:06:18</p>
+        </div>
+        <p>
+          <strong>Status: <span class="status">Pending</span></strong>
+        </p>
+        <p>&nbsp;</p>
         <main id="Main-container">
-          <div id="products">
-            <section>
-              <table>
-                <tr>
-                  <td>Product</td>
-                  <td>Color</td>
-                  <td>Capacity</td>
-                  <td>Quantity</td>
-                  <td>Price</td>
-                </tr>
-                <tr>
-                  <td>
-                    <div id="product-name">
-                      <img src="" alt="Phone" />
-                      <p>Huawei P20 Pro 128GB</p>
-                    </div>
-                  </td>
-                  <td>Blue</td>
-                  <td>64 GB</td>
-                  <td>1</td>
-                  <td>550 JD</td>
-                </tr>
-              </table>
-            </section>
-            <section id="total-price"></section>
+          <div>
+            <div id="products">
+              <section>
+                <table>
+                  <tr>
+                    <td>Product</td>
+                    <td>Color</td>
+                    <td>Capacity</td>
+                    <td>Quantity</td>
+                    <td>Price</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div id="product-name">
+                        <img
+                          src="data:image/jpeg;base64,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"
+                          alt="Phone"
+                        />
+                        <p>Huawei P20 Pro 128GB</p>
+                      </div>
+                    </td>
+                    <td>Blue</td>
+                    <td>64 GB</td>
+                    <td>1</td>
+                    <td>550 JD</td>
+                  </tr>
+                </table>
+              </section>
+              <hr />
+              <section id="total-price">
+                <ul>
+                  <li>Subtotal</li>
+                  <li>Shipping</li>
+                  <li>Tax</li>
+                  <li>Total</li>
+                </ul>
+                <ul>
+                  <li>1300 JD</li>
+                  <li>10 JD</li>
+                  <li>14 JD</li>
+                  <li>1324 JD</li>
+                </ul>
+              </section>
+            </div>
+            <br />
             <section id="options">
-              <div>
+              <div id="selling-documents">
                 <a href="#"><button>PDF Invoice</button></a>
                 <a href="#"><button>Print</button></a>
               </div>
-              <a href="#">Cancel Order &rightarrow;</a>
+              <a href="#"
+                ><strong>Cancel Order &ThickSpace; &rightarrow;</strong></a
+              >
             </section>
           </div>
           <aside>
-            <section id="shipping-address">
+            <section class="shipping-info">
               <p><strong>Shipping Address</strong></p>
-              <br />
               <p>name@domainname.com</p>
               <p>00962 79 998 9898</p>
               <p>Jordan, City, zipcode, street name</p>
             </section>
             <hr />
-            <section id="delivery-method">
+            <section class="shipping-info">
               <p><strong>Delivery Method</strong></p>
-              <br />
               <p>Normal Delivery</p>
             </section>
             <hr />
-            <section id="payment-method">
+            <section class="shipping-info">
               <p><strong>Payment Method</strong></p>
-              <br />
               <p>Cash</p>
             </section>
           </aside>
