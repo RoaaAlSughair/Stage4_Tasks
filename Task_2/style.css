@@ -13,36 +13,9 @@
 }
 
 #order-time {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-}
-
-p, li {
-    font-size: 0.8rem;
-}
-
-main {
   display: flex;
+  flex-direction: row;
   gap: 1rem;
-  justify-content: space-between;
-}
-
-aside {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  gap: 1rem;
-  border-radius: 0.25rem;
-  background-color: rgb(245, 245, 245);
-  padding: 0.75rem;
-  line-height: 2;
-}
-
-#products {
-  padding: 0.5rem 1rem;
-  border: 2px solid rgb(230, 230, 230);
-  border-radius: 0.25rem;
 }
 
 span {
@@ -51,6 +24,23 @@ span {
 
 .status {
   color: orange;
+}
+
+p,
+li {
+  font-size: 0.8rem;
+}
+
+main {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+#products {
+  padding: 0.5rem 1rem;
+  border: 2px solid rgb(230, 230, 230);
+  border-radius: 0.25rem;
 }
 
 #product-name {
@@ -65,17 +55,28 @@ table tr td {
   font-weight: bold;
 }
 
-button {
-  background-color: white;
-  border: 2px solid rgb(26, 166, 221);
-  border-radius: 2rem;
-  padding: 0.25rem 1.5rem;
-  color: rgb(26, 166, 221);
-}
-
 img {
   width: 3rem;
   height: 3rem;
+}
+
+li {
+  list-style: none;
+}
+
+li:last-of-type {
+  font-weight: bold;
+}
+
+#total-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+#options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #selling-documents {
@@ -83,10 +84,12 @@ img {
   gap: 1rem;
 }
 
-#options {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+button {
+  background-color: white;
+  border: 2px solid rgb(26, 166, 221);
+  border-radius: 2rem;
+  padding: 0.25rem 1.5rem;
+  color: rgb(26, 166, 221);
 }
 
 a {
@@ -99,15 +102,13 @@ a::after {
   color: red;
 }
 
-li {
-    list-style: none;
-}
-
-li:last-of-type {
-    font-weight: bold;
-}
-
-#total-price {
-    display: flex;
-    justify-content: space-between;
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1rem;
+  border-radius: 0.25rem;
+  background-color: rgb(245, 245, 245);
+  padding: 0.75rem;
+  line-height: 2;
 }
