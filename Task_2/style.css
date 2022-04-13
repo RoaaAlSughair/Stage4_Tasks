@@ -33,8 +33,10 @@ li {
 
 main {
   display: flex;
+  flex-flow: row wrap;
   gap: 1rem;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 #products {
@@ -64,7 +66,7 @@ li {
   list-style: none;
 }
 
-li:last-of-type {
+#total-price ul li:last-of-type {
   font-weight: bold;
 }
 
@@ -76,6 +78,7 @@ li:last-of-type {
 #options {
   display: flex;
   justify-content: space-between;
+  gap: 33.5vw;
   align-items: center;
 }
 
@@ -111,4 +114,30 @@ aside {
   background-color: rgb(245, 245, 245);
   padding: 0.75rem;
   line-height: 2;
+}
+
+.shipping-info {
+    margin-right: 2rem;
+}
+
+@media (max-width: 768px) {
+    #App {
+        padding: 1rem 2rem;
+    }
+
+    #Details {
+        padding: 2rem 1rem;
+    }
+
+    #order-time p:last-of-type {
+        visibility: hidden;
+    }
+
+    main, #options {
+        flex-direction: column;
+    }
+
+    main {
+        align-items: stretch;
+    }
 }
