@@ -1,0 +1,17 @@
+footer ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+footer li, footer a {
+    list-style: none;
+    font-size: 0.8rem;
+    color: rgb(128, 128, 128);
+}
+
+.chevron {
+    font-size: 0.6rem;
+    color: inherit;
+}

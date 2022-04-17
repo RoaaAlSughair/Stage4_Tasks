@@ -1,0 +1,9 @@
+button {
+    width: stretch;
+    height: 1.5rem;
+    background-color: rgb(83, 129, 255);
+    border: 1px solid rgb(58, 110, 255);
+    border-radius: 0.25rem;
+    color: white;
+    padding: 0 0.5rem;
+}

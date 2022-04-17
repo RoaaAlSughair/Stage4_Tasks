@@ -1,0 +1,6 @@
+### A potential documentation for the properties of each styled element used within this project ###
+
+This folder contains:
+
+1. Input group
+2. Button

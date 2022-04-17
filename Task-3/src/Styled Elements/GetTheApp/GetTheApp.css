@@ -1,0 +1,21 @@
+.download-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    gap: 0.5rem;
+    padding: 1rem;
+    line-height: 2;
+}
+
+.download-images { 
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.download-img { 
+    width: 7rem;
+    height: 2.25rem;
+}
