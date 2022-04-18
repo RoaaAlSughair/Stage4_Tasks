@@ -60,11 +60,11 @@
 }
 
 .links {
-    display: flex;
-    flex-direction: column;
-    line-height: 2;
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
 }
 
 Footer {
-    padding: 0 20vw;
+  padding: 0 20vw;
 }
