@@ -19,3 +19,9 @@
     width: 7rem;
     height: 2.25rem;
 }
+
+@media (max-width: 1000px) {
+    .download-images {
+        flex-direction: column;
+    }
+}

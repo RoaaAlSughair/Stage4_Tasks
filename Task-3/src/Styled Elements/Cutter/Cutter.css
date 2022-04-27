@@ -1,0 +1,14 @@
+.cutter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.line-cutter {
+  border: 1px solid rgb(220, 220, 220);
+  min-width: 10vw;
+  max-height: 1px;
+  background-color: rgb(220, 220, 220);
+}

@@ -4,3 +4,8 @@ This folder contains:
 
 1. Input group
 2. Button
+3. Get The App
+4. Footer
+5. Wrapper
+6. Container
+7. NavBar
