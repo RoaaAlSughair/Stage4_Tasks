@@ -23,7 +23,7 @@ export default function Login() {
           <Cutter />
           <div className="links">
             <Link to="">
-              <i class="fa-brands fa-facebook-square"></i> Login with Facebook
+              <i className="fa-brands fa-facebook-square"></i> Login with Facebook
             </Link>
             <Link to="">Forgot Password?</Link>
           </div>
