@@ -1,0 +1,16 @@
+.home-page {
+  flex-direction: row;
+  gap: 2rem;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+
+@media (max-width: 1000px) {
+  aside {
+    visibility: hidden;
+  }
+}
